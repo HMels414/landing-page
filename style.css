@@ -13,6 +13,8 @@ body {
 }
 .image-holder {
     border: solid red 3px;
+    height: 200px;
+    width: 400px;
 }
 
 .body2 {
@@ -21,6 +23,8 @@ body {
 .image-a, .image-b, .image-c, .image-d {
     border: solid red 3px;
     border-radius: 10%;
+    height:  150px;
+    width: 150px;
 }
 
 .body3 {
