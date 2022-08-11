@@ -6,15 +6,14 @@ body {
 
 .headlinks {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    /* background-color: #1f2937; */
-    padding: 16px 0px;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 16px 175px;
 }
 .header {
     font-size: 24px;
     font-weight: bold;
-    /* color: #f9faf8; */
+    color: #f9faf8;
 }
 ul {
     display: flex;
@@ -26,20 +25,19 @@ li {
     list-style-type: none;
 }
 a {
-    /* color: #e5e7eb; */
+    color: #e5e7eb;
     text-decoration: none;
 }
 
 .body1 {
-    border: solid rgb(0, 119, 255) 3px;
     display: flex;
+    justify-content: center;
     background-color: #1f2937;
     color: #f9faf8;
     gap: 50px;
-   padding: 96px 175px;
+    padding: 96px 175px;
 }
 .bodysign {
-    border: solid #3882f6;
     display: flex;
     flex-direction: column;
 }
@@ -50,11 +48,13 @@ a {
 .herotext {
     font-size: 18px;
     margin: 0;
+    padding:  16px 0px;
 }
 .touch {
     background-color: #3882f6;
     border-radius: 8px;
     border: #3882f6;
+    font-size: 18px;
     font-weight: 400;
     color: #e5e7eb;
     height: 36px;
@@ -62,51 +62,60 @@ a {
 }
 .image-holder {
     display: flex;
-
+    justify-content: center;
+    align-items: center;
     background-color: #929292;
     width: 1500px;
-    height: auto;
+    height: 248px;
+    margin-top: 12px;
 }
 
-/* .body2 {
+.b2 {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 36px 0px;
+}
+.body2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    border: solid red 3px;
-    padding: 48px;
+    gap: 16px;
+    padding: 72px 0px;
 }
 .diva { 
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    height: 300px;
+    text-align: center;
+    height: auto;
     width: 200px;
-    border: solid red 3px; 
 }
 .image-a, .image-b, .image-c, .image-d {
-    border: solid #3882f6 3px;
-    border-radius: 8px;
-    height: 150px;
-    width: 150px;
+    border: solid #3882f6 4px;
+    border-radius: 16px;
+    height: 175px;
+    width: 175px;
 }
 
 .body3 {
-    font-size: 36px;
+    font-size: 28px;
     font-style: italic;
     background-color: #e5e7eb;
     color: #1f2937;
-    border: solid red 3px;
-    padding: 100px 400px;
+    padding: 72px 200px;
 }
 b {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-start;
+    font-size: 16px;
 }
 
-.body4 {
+/* .body4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,8 +149,9 @@ b {
     color: #f9faf8;
     font-size: 12px;
     height: 48px;
-   padding: 16px;
+    padding: 16px;
 }
 
- /* 
- */
+/* 
+*/
+border:  solid red;
